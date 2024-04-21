@@ -1,0 +1,2 @@
+# website-naiki-blog
+web
