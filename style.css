@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(#b0b0b0, #d7d7d7, #ffffff);
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .icon {
+    position: relative;
+    background: #eeeeee;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .facebook span {
+    color: #000000;
+  }
+  
+  .instagram span {
+    color: #000000;
+  }
+  
+  .twitter span {
+    color: #000000;
+  }
+  
+  .github span {
+    color: #000000;
+  }
+  
+  .youtube span {
+    color: #000000;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon span {
+    transition: color 0.2s;
+  }
+  
+  .facebook:hover span {
+    color: #3b5998;
+  }
+  
+  .instagram:hover span {
+    color: #c32aa3;
+  }
+  
+  .twitter:hover span {
+    color: #1da1f2;
+  }
+  
+  .github:hover span {
+    color: #333333;
+  }
+  
+  .youtube:hover span {
+    color: #ff0000;
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s;
+  }
+  
+  .icon:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
+  
